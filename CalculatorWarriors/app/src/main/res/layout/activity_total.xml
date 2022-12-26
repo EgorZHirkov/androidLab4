@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_background"
+    android:orientation="vertical"
+    tools:context=".TotalActivity">
+
+    <TextView
+        android:text="@string/troops"
+        style="@style/titleStyle" />
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/round"
+        android:padding="4dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/layout_barbarian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/img_unit"
+                    android:src="@drawable/img_unit_barbarian_83_83" />
+
+                <TextView
+                    android:id="@+id/total_barbarian"
+                    android:text="@string/x"
+                    style="@style/count_capacity" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_archer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:src="@drawable/img_unit_archer_83_83"
+                    style="@style/img_unit" />
+
+                <TextView
+                    android:id="@+id/total_archer"
+                    android:text="@string/x"
+                    style="@style/count_capacity" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_giant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:src="@drawable/img_unit_giant_83_83"
+                    style="@style/img_unit" />
+
+                <TextView
+                    android:id="@+id/total_giant"
+                    android:text="@string/x"
+                    style="@style/count_capacity" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_goblin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/img_unit"
+                    android:src="@drawable/img_unit_goblin_83_83" />
+
+                <TextView
+                    android:id="@+id/total_goblin"
+                    android:text="@string/x"
+                    style="@style/count_capacity" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_wizard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:src="@drawable/img_unit_wizard_83_83"
+                    style="@style/img_unit" />
+
+                <TextView
+                    android:id="@+id/total_wizard"
+                    android:text="@string/x"
+                    style="@style/count_capacity" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_dragon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:src="@drawable/img_unit_dragon_83_83"
+                    style="@style/img_unit" />
+
+                <TextView
+                    android:id="@+id/total_dragon"
+                    android:text="@string/x"
+                    style="@style/count_capacity" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:text="@string/spells"
+        style="@style/titleStyle" />
+
+    <HorizontalScrollView
+        android:layout_marginStart="30dp"
+        android:layout_width="wrap_content"
+        android:scrollbars="none"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:background="@drawable/round">
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/layout_lightning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:src="@drawable/img_lightning_spell_83_83"
+                style="@style/img_unit" />
+
+            <TextView
+                android:id="@+id/total_lightning"
+                android:text="@string/x"
+                style="@style/count_capacity" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_healing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:src="@drawable/img_healing_spell_83_83"
+                style="@style/img_unit" />
+
+            <TextView
+                android:id="@+id/total_healing"
+                android:text="@string/x"
+                style="@style/count_capacity" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_rage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:src="@drawable/img_rage_spell_83_83"
+                style="@style/img_unit" />
+
+            <TextView
+                android:id="@+id/total_rage"
+                android:text="@string/x"
+                style="@style/count_capacity" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_poison"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:src="@drawable/img_poison_spell_83_83"
+                style="@style/img_unit" />
+
+            <TextView
+                android:id="@+id/total_poison"
+                android:text="@string/x"
+                style="@style/count_capacity" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_skeleton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:src="@drawable/img_skeleton_spell_83_83"
+                style="@style/img_unit" />
+
+            <TextView
+                android:id="@+id/total_skeleton"
+                android:text="@string/x"
+                style="@style/count_capacity" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:text="@string/results"
+        style="@style/titleStyle" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round"
+            android:orientation="vertical">
+
+            <ImageView
+                android:src="@drawable/img_time_icon_19_22"
+                style="@style/img_capacity" />
+
+            <TextView
+                android:id="@+id/total_time"
+                android:padding="4dp"
+                style="@style/count_capacity" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="50dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/round"
+            android:orientation="vertical">
+
+            <ImageView
+                android:src="@drawable/img_capacity_icon_17_22"
+                style="@style/img_capacity" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="4dp">
+
+                <TextView
+                    android:id="@+id/total_troops"
+                    style="@style/count_capacity" />
+
+                <TextView
+                    android:text="@string/sep"
+                    style="@style/count_capacity" />
+
+                <TextView
+                    android:id="@+id/total_all1"
+                    style="@style/count_capacity" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/round"
+            android:orientation="vertical">
+
+            <ImageView
+                android:src="@drawable/img_spell_icon_24_23"
+                style="@style/img_capacity" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="4dp">
+
+                <TextView
+                    android:id="@+id/total_spells"
+                    style="@style/count_capacity" />
+
+                <TextView
+                    android:text="@string/sep"
+                    style="@style/count_capacity" />
+
+                <TextView
+                    android:id="@+id/total_all2"
+                    style="@style/count_capacity" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/parameters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_margin="15dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/icon_back" />
+
+    </LinearLayout>
+
+</LinearLayout>

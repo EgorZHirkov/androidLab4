@@ -1,0 +1,2 @@
+rootProject.name='CalculatorWarriors'
+include ':app'

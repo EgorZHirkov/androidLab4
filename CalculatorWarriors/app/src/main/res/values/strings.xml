@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">CalculatorWarriors</string>
+    <string name="count">Количество</string>
+    <string name="_0">0</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_20">20</string>
+    <string name="troops">Войска</string>
+    <string name="barbarian">Варвар</string>
+    <string name="archer">Лучница</string>
+    <string name="giant">Гигант</string>
+    <string name="goblin">Гоблин</string>
+    <string name="wizard">Колдун</string>
+    <string name="dragon">Дракон</string>
+    <string name="spells">Заклинания</string>
+    <string name="lightning">Молния</string>
+    <string name="healing">Исцеление</string>
+    <string name="rage">Ярость</string>
+    <string name="dark_spells">Темные заклинания</string>
+    <string name="poison">Яд</string>
+    <string name="skeletons">Скелеты</string>
+    <string name="x">x</string>
+    <string name="results">Итоги</string>
+    <string name="sep">/</string>
+    <string name="armyCamp">Военный Лагерь</string>
+    <string name="spellFactory">Фабрика заклинаний</string>
+    <string name="darkSpellFactory">Фабрика темных заклинаний</string>
+    <string name="capacity">Вместимость:</string>
+    <string-array name="campLevels">
+        <item>Уровень 1</item>
+        <item>Уровень 2</item>
+        <item>Уровень 3</item>
+        <item>Уровень 4</item>
+        <item>Уровень 5</item>
+        <item>Уровень 6</item>
+        <item>Уровень 7</item>
+        <item>Уровень 8</item>
+        <item>Уровень 9</item>
+        <item>Уровень 10</item>
+        <item>Уровень 11</item>
+    </string-array>
+    <string-array name="factoryLevels">
+        <item>Отсутствует</item>
+        <item>Уровень 1</item>
+        <item>Уровень 2</item>
+        <item>Уровень 3</item>
+        <item>Уровень 4</item>
+        <item>Уровень 5</item>
+        <item>Уровень 6</item>
+        <item>Уровень 7</item>
+    </string-array>
+    <string-array name="darkFactoryLevels">
+        <item>Отсутствует</item>
+        <item>Уровень 1</item>
+        <item>Уровень 2</item>
+        <item>Уровень 3</item>
+        <item>Уровень 4</item>
+        <item>Уровень 5</item>
+    </string-array>
+</resources>
